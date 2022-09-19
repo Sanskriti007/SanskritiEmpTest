@@ -30,21 +30,16 @@ public class Employee {
   
         for (int i = 0; i < 10; i++)
         {
-            // Use of charAt() method : to get character value
-            // Use of nextInt() as it is scanning the value as int
             password[i] =
               poolValue.charAt(randomObj.nextInt(poolValue.length()));
-           
-  
-        }
+           }
         for (int i = 0; i < 10; i++) {
         	pwd += password[i];
         }
         return pwd;
         
     }
-                
-    	
+          	
     
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
